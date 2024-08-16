@@ -14,16 +14,23 @@ namespace TargovetsPlusAPI.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Sale> Sales { get; set; }
         public DbSet<Inventory> Inventory { get; set; }
-        
-        // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        // {
-        //     var configuration = new ConfigurationBuilder()
-        //         .SetBasePath(Directory.GetCurrentDirectory())
-        //         .AddJsonFile("appsettings.json")
-        //         .Build();
-        //     
-        //     string connectionString = configuration.GetConnectionString("DefaultConnection");
-        //     optionsBuilder.UseNpgsql(connectionString);
-        // }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Sale>()
+                .HasOne(s => s.Customer)
+                .WithMany()
+                .HasForeignKey(s => s.CustomerId);
+
+            modelBuilder.Entity<Sale>()
+                .HasOne(s => s.Product)
+                .WithMany(p => p.Sales)
+                .HasForeignKey(s => s.ProductId);
+
+            modelBuilder.Entity<Inventory>()
+                .HasOne(i => i.Product)
+                .WithMany()
+                .HasForeignKey(i => i.ProductId);
+        }
     }
 }
