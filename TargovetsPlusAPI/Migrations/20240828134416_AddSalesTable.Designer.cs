@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using TargovetsPlusAPI.Data;
@@ -12,9 +13,11 @@ using TargovetsPlusAPI.Data;
 namespace TargovetsPlusAPI.Migrations
 {
     [DbContext(typeof(TargovetsPlusDbContext))]
-    partial class TargovetsPlusDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240828134416_AddSalesTable")]
+    partial class AddSalesTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,7 +51,7 @@ namespace TargovetsPlusAPI.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("Alerts", (string)null);
+                    b.ToTable("Alerts");
                 });
 
             modelBuilder.Entity("TargovetsPlusAPI.Models.Category", b =>
@@ -65,7 +68,7 @@ namespace TargovetsPlusAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("TargovetsPlusAPI.Models.Product", b =>
@@ -97,7 +100,7 @@ namespace TargovetsPlusAPI.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("TargovetsPlusAPI.Models.Role", b =>
@@ -114,7 +117,7 @@ namespace TargovetsPlusAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Roles", (string)null);
+                    b.ToTable("Roles");
 
                     b.HasData(
                         new
@@ -142,6 +145,9 @@ namespace TargovetsPlusAPI.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CustomerAge")
+                        .HasColumnType("integer");
+
                     b.Property<DateTime>("DateOfPurchase")
                         .HasColumnType("timestamp with time zone");
 
@@ -154,7 +160,7 @@ namespace TargovetsPlusAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sales", (string)null);
+                    b.ToTable("Sales");
                 });
 
             modelBuilder.Entity("TargovetsPlusAPI.Models.Transaction", b =>
@@ -185,7 +191,7 @@ namespace TargovetsPlusAPI.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("Transactions", (string)null);
+                    b.ToTable("Transactions");
                 });
 
             modelBuilder.Entity("TargovetsPlusAPI.Models.User", b =>
@@ -210,7 +216,7 @@ namespace TargovetsPlusAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("TargovetsPlusAPI.Models.Alert", b =>
