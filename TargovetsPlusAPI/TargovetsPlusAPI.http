@@ -1,0 +1,6 @@
+@TargovetsPlusAPI_HostAddress = http://localhost:5113
+
+GET {{TargovetsPlusAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
