@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TargovetsPlusAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05a5b585cb2ec567bb91d5ac7d6d8f8c6110468d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58b2d8a7cf2b604156ad6081655904ccd849e8da")]
 [assembly: System.Reflection.AssemblyProductAttribute("TargovetsPlusAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TargovetsPlusAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
