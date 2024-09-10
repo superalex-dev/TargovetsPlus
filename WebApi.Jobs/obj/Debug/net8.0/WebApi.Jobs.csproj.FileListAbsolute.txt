@@ -1,4 +1,3 @@
-C:\Users\GRIGS\Desktop\Projects\TargovetsPlus\WebApi.Jobs\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\GRIGS\Desktop\Projects\TargovetsPlus\WebApi.Jobs\bin\Debug\net8.0\appsettings.json
 C:\Users\GRIGS\Desktop\Projects\TargovetsPlus\WebApi.Jobs\bin\Debug\net8.0\WebApi.Jobs.exe
 C:\Users\GRIGS\Desktop\Projects\TargovetsPlus\WebApi.Jobs\bin\Debug\net8.0\WebApi.Jobs.deps.json
