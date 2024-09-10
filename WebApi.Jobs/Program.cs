@@ -23,6 +23,9 @@ builder.Services.AddCors(options =>
     });
 });
 
+// Add controllers
+builder.Services.AddControllers();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -36,5 +39,9 @@ app.UseHttpsRedirection();
 
 // Use CORS policy if added
 app.UseCors("AllowAll");
+
+app.UseAuthorization();
+
+app.MapControllers();
 
 app.Run();

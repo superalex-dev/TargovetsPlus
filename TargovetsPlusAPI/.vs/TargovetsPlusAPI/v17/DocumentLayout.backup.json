@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\TargovetsPlusAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CDD616-AABE-40FB-A90D-DD8B19D80307}|TargovetsPlusAPI.csproj|c:\\users\\grigs\\desktop\\projects\\targovetsplus\\targovetsplusapi\\data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CDD616-AABE-40FB-A90D-DD8B19D80307}|TargovetsPlusAPI.csproj|solutionrelative:data\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CDD616-AABE-40FB-A90D-DD8B19D80307}|TargovetsPlusAPI.csproj|c:\\users\\grigs\\desktop\\projects\\targovetsplus\\targovetsplusapi\\data\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CDD616-AABE-40FB-A90D-DD8B19D80307}|TargovetsPlusAPI.csproj|solutionrelative:data\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CDD616-AABE-40FB-A90D-DD8B19D80307}|TargovetsPlusAPI.csproj|c:\\users\\grigs\\desktop\\projects\\targovetsplus\\targovetsplusapi\\data\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CDD616-AABE-40FB-A90D-DD8B19D80307}|TargovetsPlusAPI.csproj|solutionrelative:data\\repositories\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CDD616-AABE-40FB-A90D-DD8B19D80307}|TargovetsPlusAPI.csproj|c:\\users\\grigs\\desktop\\projects\\targovetsplus\\targovetsplusapi\\data\\targovetsplusapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CDD616-AABE-40FB-A90D-DD8B19D80307}|TargovetsPlusAPI.csproj|solutionrelative:data\\targovetsplusapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CDD616-AABE-40FB-A90D-DD8B19D80307}|TargovetsPlusAPI.csproj|c:\\users\\grigs\\desktop\\projects\\targovetsplus\\targovetsplusapi\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CDD616-AABE-40FB-A90D-DD8B19D80307}|TargovetsPlusAPI.csproj|solutionrelative:services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F0DC9-9951-4E8D-BE5C-09568173CD2E}|..\\WebApi.Jobs\\WebApi.Jobs.csproj|c:\\users\\grigs\\desktop\\projects\\targovetsplus\\webapi.jobs\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F0DC9-9951-4E8D-BE5C-09568173CD2E}|..\\WebApi.Jobs\\WebApi.Jobs.csproj|c:\\users\\grigs\\desktop\\projects\\targovetsplus\\webapi.jobs\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{759F0DC9-9951-4E8D-BE5C-09568173CD2E}|..\\WebApi.Jobs\\WebApi.Jobs.csproj|c:\\users\\grigs\\desktop\\projects\\targovetsplus\\webapi.jobs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\TargovetsPlusAPI\\Data\\Dto\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Data\\Dto\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\TargovetsPlusAPI\\Data\\Dto\\ProductDto.cs",
+              "RelativeToolTip": "Data\\Dto\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:48:10.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\TargovetsPlusAPI\\Data\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\TargovetsPlusAPI\\Data\\Repositories\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:48:02.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\TargovetsPlusAPI\\Data\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\TargovetsPlusAPI\\Data\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:48:00.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TargovetsPlusAPIDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\TargovetsPlusAPI\\Data\\TargovetsPlusAPIDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\TargovetsPlusAPIDbContext.cs",
+              "ToolTip": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\TargovetsPlusAPI\\Data\\TargovetsPlusAPIDbContext.cs",
+              "RelativeToolTip": "Data\\TargovetsPlusAPIDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:47:50.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\TargovetsPlusAPI\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\TargovetsPlusAPI\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:47:41.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\WebApi.Jobs\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "..\\WebApi.Jobs\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\WebApi.Jobs\\appsettings.Development.json",
+              "RelativeToolTip": "..\\WebApi.Jobs\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-07T18:47:35.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\WebApi.Jobs\\TestController.cs",
+              "RelativeDocumentMoniker": "..\\WebApi.Jobs\\TestController.cs",
+              "ToolTip": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\WebApi.Jobs\\TestController.cs",
+              "RelativeToolTip": "..\\WebApi.Jobs\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:47:30.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\WebApi.Jobs\\Program.cs",
+              "RelativeDocumentMoniker": "..\\WebApi.Jobs\\Program.cs",
+              "ToolTip": "C:\\Users\\GRIGS\\Desktop\\Projects\\TargovetsPlus\\WebApi.Jobs\\Program.cs",
+              "RelativeToolTip": "..\\WebApi.Jobs\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:45:02.058Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
